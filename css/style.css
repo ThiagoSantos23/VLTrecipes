@@ -1,0 +1,187 @@
+.jumbotron{
+    background-image: url(../img/flag.jpg);
+    color: white;
+    font-family: Arial, calibri, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #E0E5EC;
+}
+
+h1{
+    color: white;
+    font-family: Arial, calibri, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.btn{
+    margin: 4px 8px;
+}
+
+.main-content{
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+h2{
+    color: black;
+    font-family: Arial, calibri, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.btn-recipe{
+    background-color: yellow;
+    border: 2px solid #4CAF50;;
+    border-radius: 8px;
+    color: #4CAF50;
+    font-weight: bold;
+    width: 200px;
+}
+
+h3{
+    color: black;
+    font-family: Arial, calibri, sans-serif;
+    font-weight: bolder;
+    font-style: inherit;
+    font-size: large;
+}
+
+p{
+    font-family: arial, sans-serif, 'Times New Roman';
+}
+
+.about-text {
+  margin: 1rem 0;
+  max-width: 26rem;
+  color: black;
+  font-family: RalewayELimport;
+}
+
+.about{
+  background-color: #E0E5EC;
+}
+
+.menu-recipes{
+  position: absolute;
+  visibility: visible;
+  z-index: 0;
+  width: 115%;
+  height: 115%;
+}
+
+.menu-section{
+  float: left;
+  background-color: #E0E5EC;
+  width: 25%;
+  padding: 2rem;  
+  height: 420px;
+  z-index: 2;
+}
+
+.menu-flip-card {
+  background-color: transparent;
+  width: 90%;
+  height: 105%;
+  perspective: 1000px;
+  z-index: 3;
+}
+
+.menu-flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+  border-radius: 5%;
+  background: none;
+}
+
+.menu-flip-card:hover .menu-flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.menu-flip-card-front, .menu-flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.menu-flip-card-front {
+  background: #E0E5EC;
+  color: black;
+}
+
+.menu-flip-card-back {
+  background-color: #E0E5EC;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 5%;
+}
+
+.menu-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.menu-text-title{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#bd1220;
+}
+
+.menu-image{
+  width:100%;
+  height:100%;
+  border-radius: 5%;
+}
+
+.contact-social{
+  width: 100%;
+  border: 1px solid #E0E5EC;
+  border-radius: 25px;
+}
+
+.icons{
+  width: 25px;
+  height: 25px;
+  background: url("svg/google.svg") no-repeat;
+  display: inline-block;
+}
+.icons:hover {
+  background: url("svg/google-red.svg") no-repeat;
+}
+
+.contact-social-icons{
+  cursor: pointer;
+}
+
+.contact-social-icons:hover {
+  cursor: pointer;
+}
+
+.colorcover-link{
+  color:black;
+  transition: 0.5s;
+}
+
+.colorcover-link:hover{
+  color: #bd1220;
+}
+
+.fontsettings{
+  color:black;
+  font-size: small;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
