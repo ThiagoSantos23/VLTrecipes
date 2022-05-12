@@ -1,2 +1,5 @@
 # VLTrecipes
-CA project
+
+Brazilian recipes app created as a CA project
+
+
